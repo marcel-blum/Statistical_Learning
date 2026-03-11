@@ -1,0 +1,21 @@
+# --- Data Files ---
+# Do not upload the massive proprietary Amex dataset
+#
+data/*.csv
+data/*.zip
+*.csv
+*.gz
+
+# --- R Environment & Workspace ---
+# These files are specific to your local machine and can cause crashes for others
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Output & Temporary Files ---
+# Keep the repository focused on code, not local logs
+*.log
+*.pdf
+.DS_Store
