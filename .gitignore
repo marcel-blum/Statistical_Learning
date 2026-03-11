@@ -1,0 +1,18 @@
+# --- Data Files ---
+# Prevent uploading massive proprietary Amex datasets
+data/*.csv
+data/*.zip
+*.csv
+*.gz
+
+# --- R Environment & Workspace ---
+# Local settings that shouldn't be shared
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- System & Logs ---
+*.log
+.DS_Store
