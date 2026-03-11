@@ -9,7 +9,7 @@ The model demonstrates exceptional discrimination power between default and non-
 This diagnostic view confirms high precision in identifying non-defaults while capturing the majority of actual defaults, essential for credit risk appetite.
 
 ## Model Interpretability
-**3. Top 15 Predictive Features (XGBoost) [01_SL_feature_importance.png](https://github.com/marcel-blum/Statistical_Learning/blob/visualizations/01_SL_feature_importance.png)
+**3. Top 15 Predictive Features (XGBoost)** [01_SL_feature_importance.png](https://github.com/marcel-blum/Statistical_Learning/blob/visualizations/01_SL_feature_importance.png)
 Extracted using the XGBoost importance matrix, this plot validates that the model relies on economically meaningful drivers:
 - **Delinquency (`D_75`):**`The strongest predictor, indicating past payment behavior.
 - **Balance (`B_9`):** A critical measure of utilization and credit stress.
