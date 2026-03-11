@@ -21,4 +21,4 @@ The underlying data is proprietary to the American Express - Default Prediction 
 - **Setup:** To reproduce the results, download the training and validation CSVs and place them in a /data directory at the project root.
 
 # Final Notes
-Before reproducing the results, it is recommended to call the `session_info.txt` file to ensure the project's prerequisites are met.
+Before reproducing the results, it is recommended to call the [session_info.txt] file to ensure the project's prerequisites are met.
